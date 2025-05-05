@@ -1,0 +1,627 @@
+2025-03-09 14:45:01,343 - INFO - Initialized wandb run: tablesense-20250309-144500
+2025-03-09 14:45:01,343 - INFO - Process 0/2 starting training
+wandb: logging graph, to disable use `wandb.watch(log_graph=False)`
+2025-03-09 14:45:03,523 - INFO - Using provided sampler, shuffle set to False
+2025-03-09 14:45:03,523 - INFO - Created DataLoader with: batch_size=1, num_workers=4, shuffle=False, sampler=provided
+/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 0:   1%|          | 1/184 [00:32<1:37:41, 32.03s/it, gpu=0, loss=0.7118, avg_loss=0.7118, mem=0.66GB]
+The max anchor overlap is 0.7347400188446045
+
+RPN Labels statistics:
+Total proposals: 19800
+Positive anchors proposals: 18
+Negative anchors proposals: 19782
+The max ROI overlap is 0.8286687135696411
+
+ROI Labels statistics:
+Total ROI proposals: 19800
+Positive ROI proposals: 16
+Negative ROI proposals: 19784
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.6878110766410828
+The rpn bbox loss is 0.012483335100114346
+The det_class_loss is 0.0005365564138628542
+The detection head bbox loss is 0.00889856182038784
+The detection head precise bbox loss is 0.0020269814413040876
+The max anchor overlap is 0.7941176295280457
+
+RPN Labels statistics:
+Total proposals: 12096
+Positive anchors proposals: 28
+Negative anchors proposals: 12068
+The max ROI overlap is 0.9099099636077881
+
+ROI Labels statistics:
+Total ROI proposals: 12096
+Positive ROI proposals: 41
+Negative ROI proposals: 12055
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.6562848687171936
+The rpn bbox loss is 0.024065600708127022
+The det_class_loss is 0.001692085643298924
+The detection head bbox loss is 0.1609649658203125
+The detection head precise bbox loss is 0.005879699718207121
+The max anchor overlap is 0.725978672504425
+
+RPN Labels statistics:
+Total proposals: 23004
+Positive anchors proposals: 27
+Negative anchors proposals: 22977
+The max ROI overlap is 0.949882984161377
+
+ROI Labels statistics:
+Total ROI proposals: 23004
+Positive ROI proposals: 43
+Negative ROI proposals: 22961
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.6158787608146667
+The rpn bbox loss is 0.03436427190899849
+The det_class_loss is 0.0008544676238670945
+The detection head bbox loss is 0.04971766844391823
+The detection head precise bbox loss is 0.004234245978295803
+The max anchor overlap is 0.8288251757621765
+
+RPN Labels statistics:
+Total proposals: 89964
+Positive anchors proposals: 11
+Negative anchors proposals: 89953
+The max ROI overlap is 0.8718114495277405
+
+ROI Labels statistics:
+Total ROI proposals: 89964
+Positive ROI proposals: 36
+Negative ROI proposals: 89928
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.612883448600769
+The rpn bbox loss is 0.11095912009477615
+The det_class_loss is 0.00016263226279988885
+The detection head bbox loss is 0.03851822391152382
+The detection head precise bbox loss is 0.0025803211610764265
+The max anchor overlap is 0.87890625
+
+RPN Labels statistics:
+Total proposals: 4500
+Positive anchors proposals: 8
+Negative anchors proposals: 4492
+The max ROI overlap is 0.845581591129303
+
+ROI Labels statistics:
+Total ROI proposals: 4500
+Positive ROI proposals: 3
+Negative ROI proposals: 4497
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.5867346525192261
+The rpn bbox loss is 0.037957753986120224
+The det_class_loss is 0.0003184184606652707
+The detection head bbox loss is 0.01864304393529892
+The detection head precise bbox loss is 0.004166680388152599
+The max anchor overlap is 0.7474929094314575
+
+RPN Labels statistics:
+Total proposals: 19656
+Positive anchors proposals: 8
+Negative anchors proposals: 19648
+The max ROI overlap is 0.8860630393028259
+
+ROI Labels statistics:
+Total ROI proposals: 19656
+Positive ROI proposals: 12
+Negative ROI proposals: 19644
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.5773656964302063
+The rpn bbox loss is 0.14130589365959167
+The det_class_loss is 0.00031889445381239057
+The detection head bbox loss is 0.007725085131824017
+The detection head precise bbox loss is 0.0015155377332121134
+The max anchor overlap is 0.807692289352417
+
+RPN Labels statistics:
+Total proposals: 4032
+Positive anchors proposals: 22
+Negative anchors proposals: 4010
+The max ROI overlap is 0.8683294057846069
+
+ROI Labels statistics:
+Total ROI proposals: 4032
+Positive ROI proposals: 24
+Negative ROI proposals: 4008
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.5776201486587524
+The rpn bbox loss is 0.014965817332267761
+The det_class_loss is 0.0030781724490225315
+The detection head bbox loss is 0.005610080435872078
+The detection head precise bbox loss is 0.0010455073788762093
+The max anchor overlap is 0.7045454382896423
+
+RPN Labels statistics:
+Total proposals: 40176
+Positive anchors proposals: 16
+Negative anchors proposals: 40160
+The max ROI overlap is 0.8780949115753174
+
+ROI Labels statistics:
+Total ROI proposals: 40176
+Positive ROI proposals: 20
+Negative ROI proposals: 40156
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.5225614905357361
+The rpn bbox loss is 0.09086078405380249
+The det_class_loss is 0.00019685846928041428
+The detection head bbox loss is 0.017434945330023766
+The detection head precise bbox loss is 0.0014748177491128445
+The max anchor overlap is 0.7358490824699402
+
+RPN Labels statistics:
+Total proposals: 73440
+Positive anchors proposals: 26
+Negative anchors proposals: 73414
+The max ROI overlap is 0.8791613578796387
+
+ROI Labels statistics:
+Total ROI proposals: 73440
+Positive ROI proposals: 24
+Negative ROI proposals: 73416
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.4877757430076599
+The rpn bbox loss is 0.03866053745150566
+The det_class_loss is 0.00017398979980498552
+The detection head bbox loss is 0.004279737826436758
+The detection head precise bbox loss is 0.0005987216718494892
+The max anchor overlap is 0.790123462677002
+
+RPN Labels statistics:
+Total proposals: 8748
+Positive anchors proposals: 42
+Negative anchors proposals: 8706
+The max ROI overlap is 0.88865727186203
+
+ROI Labels statistics:
+Total ROI proposals: 8748
+Positive ROI proposals: 104
+Negative ROI proposals: 8644
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.4829251170158386
+The rpn bbox loss is 0.06748338043689728
+The det_class_loss is 0.006191502325236797
+The detection head bbox loss is 0.004122912883758545
+The detection head precise bbox loss is 0.000874157587531954
+The max anchor overlap is 0.8866666555404663
+
+RPN Labels statistics:
+Total proposals: 43200
+Positive anchors proposals: 43
+Negative anchors proposals: 43157
+The max ROI overlap is 0.9472069144248962
+
+ROI Labels statistics:
+Total ROI proposals: 43200
+Positive ROI proposals: 69
+Negative ROI proposals: 43131
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.44554921984672546
+The rpn bbox loss is 0.028910523280501366
+The det_class_loss is 0.0008113615331239998
+The detection head bbox loss is 0.0036918490659445524
+The detection head precise bbox loss is 0.0008415728807449341
+The max anchor overlap is 0.9202644228935242
+
+RPN Labels statistics:
+Total proposals: 85680
+Positive anchors proposals: 30
+Negative anchors proposals: 85650
+The max ROI overlap is 0.9529411792755127
+
+ROI Labels statistics:
+Total ROI proposals: 85680
+Positive ROI proposals: 46
+Negative ROI proposals: 85634
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.4222699999809265
+The rpn bbox loss is 0.009137922897934914
+The det_class_loss is 0.00027796466019935906
+The detection head bbox loss is 0.0038040424697101116
+The detection head precise bbox loss is 0.0011006771819666028
+The max anchor overlap is 0.94017094373703
+
+RPN Labels statistics:
+Total proposals: 33408
+Positive anchors proposals: 8
+Negative anchors proposals: 33400
+The max ROI overlap is 0.9563566446304321
+
+ROI Labels statistics:
+Total ROI proposals: 33408
+Positive ROI proposals: 33
+Negative ROI proposals: 33375
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.36660999059677124
+The rpn bbox loss is 0.03951140493154526
+The det_class_loss is 0.0005393435130827129
+The detection head bbox loss is 0.002459100214764476
+The detection head precise bbox loss is 0.0008932386408559978
+The max anchor overlap is 0.6489028334617615
+
+RPN Labels statistics:
+Total proposals: 4860
+Positive anchors proposals: 20
+Negative anchors proposals: 4840
+The max ROI overlap is 0.7187000513076782
+
+ROI Labels statistics:
+Total ROI proposals: 4860
+Positive ROI proposals: 3
+Negative ROI proposals: 4857
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.2516626715660095
+The rpn bbox loss is 0.05349943786859512
+The det_class_loss is 0.00030743819661438465
+The detection head bbox loss is 0.018745608627796173
+The detection head precise bbox loss is 0.011825899593532085
+The max anchor overlap is 0.9047044515609741
+
+RPN Labels statistics:
+Total proposals: 29484
+Positive anchors proposals: 34
+Negative anchors proposals: 29450
+The max ROI overlap is 0.9545415043830872
+
+ROI Labels statistics:
+Total ROI proposals: 29484
+Positive ROI proposals: 52
+Negative ROI proposals: 29432
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.3184020221233368
+The rpn bbox loss is 0.017980260774493217
+The det_class_loss is 0.0009181688656099141
+The detection head bbox loss is 0.0023832896258682013
+The detection head precise bbox loss is 0.0010164764244109392
+The max anchor overlap is 0.8366013169288635
+
+RPN Labels statistics:
+Total proposals: 27540
+Positive anchors proposals: 36
+Negative anchors proposals: 27504
+The max ROI overlap is 0.9078623652458191
+
+ROI Labels statistics:
+Total ROI proposals: 27540
+Positive ROI proposals: 61
+Negative ROI proposals: 27479
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.2827174961566925
+The rpn bbox loss is 0.014374724589288235
+The det_class_loss is 0.0011263041524216533
+The detection head bbox loss is 0.0016017601592466235
+The detection head precise bbox loss is 0.0005992210353724658
+The max anchor overlap is 0.7572115659713745
+
+RPN Labels statistics:
+Total proposals: 10080
+Positive anchors proposals: 46
+Negative anchors proposals: 10034
+The max ROI overlap is 0.9357494115829468
+
+ROI Labels statistics:
+Total ROI proposals: 10080
+Positive ROI proposals: 125
+Negative ROI proposals: 9955
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.26762622594833374
+The rpn bbox loss is 0.03207770362496376
+The det_class_loss is 0.006326972972601652
+The detection head bbox loss is 0.0015755845233798027
+The detection head precise bbox loss is 0.0006144577637314796
+The max anchor overlap is 0.7900552749633789
+
+RPN Labels statistics:
+Total proposals: 16200
+Positive anchors proposals: 24
+Negative anchors proposals: 16176
+The max ROI overlap is 0.9697622656822205
+
+ROI Labels statistics:
+Total ROI proposals: 16200
+Positive ROI proposals: 71
+Negative ROI proposals: 16129
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.20860514044761658
+The rpn bbox loss is 0.02760753408074379
+The det_class_loss is 0.0022175360936671495
+The detection head bbox loss is 0.0022251931950449944
+The detection head precise bbox loss is 0.0010441915364935994
+The max anchor overlap is 0.9191583395004272
+
+RPN Labels statistics:
+Total proposals: 65016
+Positive anchors proposals: 36
+Negative anchors proposals: 64980
+The max ROI overlap is 0.9191583395004272
+
+ROI Labels statistics:
+Total ROI proposals: 65016
+Positive ROI proposals: 35
+Negative ROI proposals: 64981
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.17082269489765167
+The rpn bbox loss is 0.017785431817173958
+The det_class_loss is 0.00026182224974036217
+The detection head bbox loss is 0.0017196801491081715
+The detection head precise bbox loss is 0.0005960706621408463
+The max anchor overlap is 0.6441006064414978
+
+RPN Labels statistics:
+Total proposals: 26640
+Positive anchors proposals: 4
+Negative anchors proposals: 26636
+The max ROI overlap is 0.8598417043685913
+
+ROI Labels statistics:
+Total ROI proposals: 26640
+Positive ROI proposals: 8
+Negative ROI proposals: 26632
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.11804986000061035
+The rpn bbox loss is 0.050813451409339905
+The det_class_loss is 0.00013699792907573283
+The detection head bbox loss is 0.0019115954637527466
+The detection head precise bbox loss is 0.0012274751206859946
+The max anchor overlap is 0.7950682044029236
+
+RPN Labels statistics:
+Total proposals: 13608
+Positive anchors proposals: 40
+Negative anchors proposals: 13568
+The max ROI overlap is 0.9229888319969177
+
+ROI Labels statistics:
+Total ROI proposals: 13608
+Positive ROI proposals: 56
+Negative ROI proposals: 13552
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.13388951122760773
+The rpn bbox loss is 0.03487275540828705
+The det_class_loss is 0.001867783023044467
+The detection head bbox loss is 0.0019033800344914198
+The detection head precise bbox loss is 0.0007751775556243956
+The max anchor overlap is 0.78125
+
+RPN Labels statistics:
+Total proposals: 5400
+Positive anchors proposals: 20
+Negative anchors proposals: 5380
+The max ROI overlap is 0.9229515194892883
+
+ROI Labels statistics:
+Total ROI proposals: 5400
+Positive ROI proposals: 98
+Negative ROI proposals: 5302
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.13129812479019165
+The rpn bbox loss is 0.02817131020128727
+The det_class_loss is 0.00869208574295044
+The detection head bbox loss is 0.0011201441520825028
+The detection head precise bbox loss is 0.00037181010702624917
+The max anchor overlap is 0.7804877758026123
+
+RPN Labels statistics:
+Total proposals: 38016
+Positive anchors proposals: 9
+Negative anchors proposals: 38007
+The max ROI overlap is 0.8246134519577026
+
+ROI Labels statistics:
+Total ROI proposals: 38016
+Positive ROI proposals: 10
+Negative ROI proposals: 38006
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.0915818139910698
+The rpn bbox loss is 0.27487555146217346
+The det_class_loss is 0.0001228769833687693
+The detection head bbox loss is 0.001236590906046331
+The detection head precise bbox loss is 0.00027345019043423235
+The max anchor overlap is 0.8791208863258362
+
+RPN Labels statistics:
+Total proposals: 29484
+Positive anchors proposals: 44
+Negative anchors proposals: 29440
+The max ROI overlap is 0.9530035257339478
+
+ROI Labels statistics:
+Total ROI proposals: 29484
+Positive ROI proposals: 153
+Negative ROI proposals: 29331
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.07923498749732971
+The rpn bbox loss is 0.03985501453280449
+The det_class_loss is 0.002519728848710656
+The detection head bbox loss is 0.0013112855376675725
+The detection head precise bbox loss is 0.000907739216927439
+Epoch 0:  13%|█▎        | 24/184 [3:37:33<100:38:27, 2264.42s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:37,389 - ERROR - Error in batch 24 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:37,395 - ERROR - Error in batch 25 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:37,400 - ERROR - Error in batch 26 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:37,406 - ERROR - Error in batch 27 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:37,413 - ERROR - Error in batch 28 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:37,419 - ERROR - Error in batch 29 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:37,426 - ERROR - Error in batch 30 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:37,433 - ERROR - Error in batch 31 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:37,614 - ERROR - Error in batch 32 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  18%|█▊        | 33/184 [3:37:34<19:33:10, 466.16s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]  2025-03-09 18:22:38,231 - ERROR - Error in batch 33 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,232 - ERROR - Error in batch 34 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  19%|█▉        | 35/184 [3:37:34<15:24:41, 372.36s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:38,238 - ERROR - Error in batch 35 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,247 - ERROR - Error in batch 36 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,546 - ERROR - Error in batch 37 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  21%|██        | 38/184 [3:37:35<10:33:02, 260.16s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:38,551 - ERROR - Error in batch 38 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,556 - ERROR - Error in batch 39 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,560 - ERROR - Error in batch 40 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,579 - ERROR - Error in batch 41 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,582 - ERROR - Error in batch 42 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,585 - ERROR - Error in batch 43 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,589 - ERROR - Error in batch 44 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,753 - ERROR - Error in batch 45 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  25%|██▌       | 46/184 [3:37:35<4:38:33, 121.12s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB] 2025-03-09 18:22:38,756 - ERROR - Error in batch 46 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,758 - ERROR - Error in batch 47 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,761 - ERROR - Error in batch 48 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,793 - ERROR - Error in batch 49 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,802 - ERROR - Error in batch 50 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,928 - ERROR - Error in batch 51 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  28%|██▊       | 52/184 [3:37:35<2:49:26, 77.02s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB] 2025-03-09 18:22:38,930 - ERROR - Error in batch 52 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,931 - ERROR - Error in batch 53 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:38,932 - ERROR - Error in batch 54 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:40,798 - ERROR - Error in batch 55 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  30%|███       | 56/184 [3:37:37<2:02:15, 57.31s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:40,801 - ERROR - Error in batch 56 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:40,803 - ERROR - Error in batch 57 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:40,804 - ERROR - Error in batch 58 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:40,836 - ERROR - Error in batch 59 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:40,837 - ERROR - Error in batch 60 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:40,838 - ERROR - Error in batch 61 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:40,839 - ERROR - Error in batch 62 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,166 - ERROR - Error in batch 63 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  35%|███▍      | 64/184 [3:37:37<1:06:04, 33.04s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:41,167 - ERROR - Error in batch 64 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,168 - ERROR - Error in batch 65 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,168 - ERROR - Error in batch 66 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,234 - ERROR - Error in batch 67 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,235 - ERROR - Error in batch 68 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,237 - ERROR - Error in batch 69 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,238 - ERROR - Error in batch 70 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,398 - ERROR - Error in batch 71 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  39%|███▉      | 72/184 [3:37:37<38:25, 20.59s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]  2025-03-09 18:22:41,868 - ERROR - Error in batch 72 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,870 - ERROR - Error in batch 73 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,871 - ERROR - Error in batch 74 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  41%|████      | 75/184 [3:37:38<31:09, 17.15s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:41,873 - ERROR - Error in batch 75 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,874 - ERROR - Error in batch 76 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:41,875 - ERROR - Error in batch 77 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,227 - ERROR - Error in batch 78 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  43%|████▎     | 79/184 [3:37:38<22:47, 13.02s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:42,361 - ERROR - Error in batch 79 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,362 - ERROR - Error in batch 80 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,363 - ERROR - Error in batch 81 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,374 - ERROR - Error in batch 82 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,375 - ERROR - Error in batch 83 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,376 - ERROR - Error in batch 84 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,788 - ERROR - Error in batch 85 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  47%|████▋     | 86/184 [3:37:39<13:16,  8.13s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:42,790 - ERROR - Error in batch 86 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,791 - ERROR - Error in batch 87 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,792 - ERROR - Error in batch 88 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,951 - ERROR - Error in batch 89 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  49%|████▉     | 90/184 [3:37:39<09:45,  6.23s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:42,953 - ERROR - Error in batch 90 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,954 - ERROR - Error in batch 91 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:42,955 - ERROR - Error in batch 92 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,087 - ERROR - Error in batch 93 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  51%|█████     | 94/184 [3:37:39<06:59,  4.67s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:43,089 - ERROR - Error in batch 94 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,090 - ERROR - Error in batch 95 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,289 - ERROR - Error in batch 96 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  53%|█████▎    | 97/184 [3:37:39<05:20,  3.69s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:43,610 - ERROR - Error in batch 97 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,611 - ERROR - Error in batch 98 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  54%|█████▍    | 99/184 [3:37:40<04:23,  3.10s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:43,612 - ERROR - Error in batch 99 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,613 - ERROR - Error in batch 100 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,673 - ERROR - Error in batch 101 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,674 - ERROR - Error in batch 102 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,674 - ERROR - Error in batch 103 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,675 - ERROR - Error in batch 104 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,702 - ERROR - Error in batch 105 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,720 - ERROR - Error in batch 106 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  58%|█████▊    | 107/184 [3:37:40<02:02,  1.58s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:43,826 - ERROR - Error in batch 107 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,827 - ERROR - Error in batch 108 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,827 - ERROR - Error in batch 109 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,828 - ERROR - Error in batch 110 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  60%|██████    | 111/184 [3:37:40<01:26,  1.18s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:43,897 - ERROR - Error in batch 111 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,898 - ERROR - Error in batch 112 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:43,940 - ERROR - Error in batch 113 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,117 - ERROR - Error in batch 114 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  62%|██████▎   | 115/184 [3:37:40<01:00,  1.13it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:44,121 - ERROR - Error in batch 115 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,122 - ERROR - Error in batch 116 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,122 - ERROR - Error in batch 117 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,145 - ERROR - Error in batch 118 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,146 - ERROR - Error in batch 119 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,146 - ERROR - Error in batch 120 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,147 - ERROR - Error in batch 121 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,313 - ERROR - Error in batch 122 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  67%|██████▋   | 123/184 [3:37:40<00:30,  1.97it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:44,347 - ERROR - Error in batch 123 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,651 - ERROR - Error in batch 124 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,653 - ERROR - Error in batch 125 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:44,731 - ERROR - Error in batch 126 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  69%|██████▉   | 127/184 [3:37:41<00:23,  2.43it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:45,825 - ERROR - Error in batch 127 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:45,827 - ERROR - Error in batch 128 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:45,828 - ERROR - Error in batch 129 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  71%|███████   | 130/184 [3:37:42<00:21,  2.48it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:45,829 - ERROR - Error in batch 130 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:50,868 - ERROR - Error in batch 131 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  72%|███████▏  | 132/184 [3:37:47<00:38,  1.34it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:50,870 - ERROR - Error in batch 132 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:50,871 - ERROR - Error in batch 133 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:50,871 - ERROR - Error in batch 134 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,052 - ERROR - Error in batch 135 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  74%|███████▍  | 136/184 [3:37:47<00:25,  1.91it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:51,053 - ERROR - Error in batch 136 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,054 - ERROR - Error in batch 137 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,054 - ERROR - Error in batch 138 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,249 - ERROR - Error in batch 139 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  76%|███████▌  | 140/184 [3:37:47<00:16,  2.66it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:51,252 - ERROR - Error in batch 140 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,253 - ERROR - Error in batch 141 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,254 - ERROR - Error in batch 142 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,323 - ERROR - Error in batch 143 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,325 - ERROR - Error in batch 144 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,375 - ERROR - Error in batch 145 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  79%|███████▉  | 146/184 [3:37:47<00:08,  4.27it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:51,376 - ERROR - Error in batch 146 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,524 - ERROR - Error in batch 147 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,525 - ERROR - Error in batch 148 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  81%|████████  | 149/184 [3:37:47<00:06,  5.17it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:51,526 - ERROR - Error in batch 149 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,527 - ERROR - Error in batch 150 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,551 - ERROR - Error in batch 151 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,552 - ERROR - Error in batch 152 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,553 - ERROR - Error in batch 153 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,812 - ERROR - Error in batch 154 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  84%|████████▍ | 155/184 [3:37:48<00:03,  7.31it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:51,813 - ERROR - Error in batch 155 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,814 - ERROR - Error in batch 156 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,815 - ERROR - Error in batch 157 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,866 - ERROR - Error in batch 158 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,867 - ERROR - Error in batch 159 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:51,868 - ERROR - Error in batch 160 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:52,264 - ERROR - Error in batch 161 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  88%|████████▊ | 162/184 [3:37:48<00:02,  9.23it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:52,265 - ERROR - Error in batch 162 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:52,266 - ERROR - Error in batch 163 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:52,708 - ERROR - Error in batch 164 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  90%|████████▉ | 165/184 [3:37:49<00:02,  8.61it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:53,261 - ERROR - Error in batch 165 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:53,263 - ERROR - Error in batch 166 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  91%|█████████ | 167/184 [3:37:49<00:02,  7.06it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:54,072 - ERROR - Error in batch 167 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,074 - ERROR - Error in batch 168 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  92%|█████████▏| 169/184 [3:37:50<00:02,  5.28it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:54,075 - ERROR - Error in batch 169 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,076 - ERROR - Error in batch 170 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,103 - ERROR - Error in batch 171 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,104 - ERROR - Error in batch 172 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,104 - ERROR - Error in batch 173 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,107 - ERROR - Error in batch 174 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,124 - ERROR - Error in batch 175 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,125 - ERROR - Error in batch 176 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,125 - ERROR - Error in batch 177 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,167 - ERROR - Error in batch 178 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,183 - ERROR - Error in batch 179 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0:  98%|█████████▊| 180/184 [3:37:50<00:00, 11.95it/s, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]2025-03-09 18:22:54,183 - ERROR - Error in batch 180 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,184 - ERROR - Error in batch 181 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,414 - ERROR - Error in batch 182 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+2025-03-09 18:22:54,415 - ERROR - Error in batch 183 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch.
+Epoch 0: 100%|██████████| 184/184 [3:37:50<00:00, 71.04s/it, gpu=0, loss=0.3681, avg_loss=0.4636, mem=2.68GB]
+2025-03-09 18:22:54,417 - ERROR - Error in process 0: ProcessGroupWrapper: Monitored Barrier encountered error running collective: CollectiveFingerPrint(SequenceNumber=100OpType=BARRIER). Error:
+Application timeout caused pair closure

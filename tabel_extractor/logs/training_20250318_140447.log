@@ -1,0 +1,10 @@
+2025-03-18 14:04:48,435 - INFO - Initialized wandb run: tablesense-20250318-140447
+2025-03-18 14:04:48,435 - INFO - Process 0/1 starting training
+2025-03-18 14:04:52,529 - INFO - Using provided sampler, shuffle set to False
+2025-03-18 14:04:52,542 - INFO - Created DataLoader with: batch_size=1, num_workers=8, shuffle=False, sampler=provided
+2025-03-20 01:26:11,060 - INFO - Checkpoint saved successfully to checkpoints/best_model.pth
+2025-03-20 01:26:11,822 - INFO - Uploaded checkpoint to wandb as artifact
+2025-03-20 01:26:11,822 - INFO - New best model saved with loss: 0.0799
+2025-03-21 12:47:31,527 - INFO - Checkpoint saved successfully to checkpoints/best_model.pth
+2025-03-21 12:47:32,246 - INFO - Uploaded checkpoint to wandb as artifact
+2025-03-21 12:47:32,246 - INFO - New best model saved with loss: 0.0269

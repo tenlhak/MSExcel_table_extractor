@@ -1,0 +1,27 @@
+2025-02-27 22:43:02,355 - INFO - Process 0/4 starting training
+2025-02-27 22:43:05,191 - INFO - Using provided sampler, shuffle set to False
+2025-02-27 22:43:05,191 - INFO - Created DataLoader with: batch_size=4, num_workers=2, shuffle=False, sampler=provided
+2025-02-27 22:43:05,192 - INFO - Running profiling for a few batches...
+2025-02-27 22:43:05,193 - INFO - Starting profiling for 5 batches (Device: 0)
+2025-02-27 22:43:09,979 - ERROR - Error in process 0: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/utils/data/_utils/worker.py", line 349, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/utils/data/_utils/collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/utils/data/_utils/collate.py", line 172, in collate
+    key: collate(
+         ^^^^^^^^
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/utils/data/_utils/collate.py", line 155, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/utils/data/_utils/collate.py", line 272, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: stack expects each tensor to be equal size, but got [20, 63, 44] at entry 0 and [20, 63, 22] at entry 1
+

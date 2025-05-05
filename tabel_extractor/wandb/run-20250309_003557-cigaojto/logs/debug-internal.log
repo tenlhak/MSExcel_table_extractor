@@ -1,0 +1,17 @@
+{"time":"2025-03-09T00:35:57.486255534-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/dapgrad/tenzinl2/lumina/tabel_extractor/wandb/run-20250309_003557-cigaojto/logs/debug-core.log"}
+{"time":"2025-03-09T00:35:57.821959611-05:00","level":"INFO","msg":"created new stream","id":"cigaojto"}
+{"time":"2025-03-09T00:35:57.821991211-05:00","level":"INFO","msg":"stream: started","id":"cigaojto"}
+{"time":"2025-03-09T00:35:57.822009305-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"cigaojto"}
+{"time":"2025-03-09T00:35:57.822046705-05:00","level":"INFO","msg":"handler: started","stream_id":"cigaojto"}
+{"time":"2025-03-09T00:35:57.822073536-05:00","level":"INFO","msg":"sender: started","stream_id":"cigaojto"}
+{"time":"2025-03-09T00:35:57.924783468-05:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T00:35:57.924827631-05:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404 Not Found: {\"errors\":[{\"message\":\"entity your-username not found during upsertBucket\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-09T00:35:58.009051638-05:00","level":"INFO","msg":"stream: closing","id":"cigaojto"}
+{"time":"2025-03-09T00:35:58.010197692-05:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-09T00:35:58.103342487-05:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T00:35:58.103371713-05:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"entity your-username not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-03-09T00:35:58.10907573-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T00:35:58.109113641-05:00","level":"INFO","msg":"handler: closed","stream_id":"cigaojto"}
+{"time":"2025-03-09T00:35:58.109126365-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cigaojto"}
+{"time":"2025-03-09T00:35:58.109146514-05:00","level":"INFO","msg":"sender: closed","stream_id":"cigaojto"}
+{"time":"2025-03-09T00:35:58.11014039-05:00","level":"INFO","msg":"stream: closed","id":"cigaojto"}

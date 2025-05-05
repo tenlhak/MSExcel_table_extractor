@@ -1,0 +1,4 @@
+2025-02-16 18:59:54,090 - INFO - Process 0/4 starting training
+2025-02-16 18:59:57,214 - INFO - Using provided sampler, shuffle set to False
+2025-02-16 18:59:57,216 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-02-16 19:00:57,351 - INFO - GPU 0: Gradient norm before clipping: 3.3993561267852783 in batch 0

@@ -1,0 +1,16 @@
+{"time":"2025-03-09T01:04:39.60771804-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/dapgrad/tenzinl2/lumina/tabel_extractor/wandb/run-20250309_010439-76dvukxr/logs/debug-core.log"}
+{"time":"2025-03-09T01:04:39.728484968-05:00","level":"INFO","msg":"created new stream","id":"76dvukxr"}
+{"time":"2025-03-09T01:04:39.728527308-05:00","level":"INFO","msg":"stream: started","id":"76dvukxr"}
+{"time":"2025-03-09T01:04:39.728551043-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"76dvukxr"}
+{"time":"2025-03-09T01:04:39.72859697-05:00","level":"INFO","msg":"handler: started","stream_id":"76dvukxr"}
+{"time":"2025-03-09T01:04:39.728632767-05:00","level":"INFO","msg":"sender: started","stream_id":"76dvukxr"}
+{"time":"2025-03-09T01:04:39.917629565-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T05:40:49.913181502-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T05:40:49.913846548-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T05:40:50.400839817-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T05:40:50.530900727-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-09T05:40:51.551882399-04:00","level":"INFO","msg":"stream: closing","id":"76dvukxr"}
+{"time":"2025-03-09T05:40:51.551909831-04:00","level":"INFO","msg":"handler: closed","stream_id":"76dvukxr"}
+{"time":"2025-03-09T05:40:51.551927133-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"76dvukxr"}
+{"time":"2025-03-09T05:40:51.55194652-04:00","level":"INFO","msg":"sender: closed","stream_id":"76dvukxr"}
+{"time":"2025-03-09T05:40:51.553009678-04:00","level":"INFO","msg":"stream: closed","id":"76dvukxr"}

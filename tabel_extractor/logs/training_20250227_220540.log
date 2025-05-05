@@ -1,0 +1,5 @@
+2025-02-27 22:05:40,780 - INFO - Process 0/4 starting training
+2025-02-27 22:05:43,315 - INFO - Using provided sampler, shuffle set to False
+2025-02-27 22:05:43,316 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-02-27 22:14:07,403 - INFO - GPU 0: Gradient norm before clipping: 10.97278118133545 in batch 0
+2025-02-27 22:18:01,575 - ERROR - Error in batch 2 on GPU 0: CUDA out of memory. Tried to allocate 1.42 GiB. GPU 0 has a total capacity of 10.75 GiB of which 1.13 GiB is free. Process 2083671 has 1.49 GiB memory in use. Including non-PyTorch memory, this process has 8.12 GiB memory in use. Of the allocated memory 6.42 GiB is allocated by PyTorch, and 1.43 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

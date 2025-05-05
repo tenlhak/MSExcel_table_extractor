@@ -1,0 +1,7 @@
+{"time":"2025-03-11T16:55:24.816036755-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/dapgrad/tenzinl2/lumina/tabel_extractor/wandb/run-20250311_165524-89jonsl8/logs/debug-core.log"}
+{"time":"2025-03-11T16:55:25.647945538-04:00","level":"INFO","msg":"created new stream","id":"89jonsl8"}
+{"time":"2025-03-11T16:55:25.648031832-04:00","level":"INFO","msg":"stream: started","id":"89jonsl8"}
+{"time":"2025-03-11T16:55:25.648212696-04:00","level":"INFO","msg":"handler: started","stream_id":"89jonsl8"}
+{"time":"2025-03-11T16:55:25.648210096-04:00","level":"INFO","msg":"sender: started","stream_id":"89jonsl8"}
+{"time":"2025-03-11T16:55:25.648381509-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"89jonsl8"}
+{"time":"2025-03-11T16:55:25.955220623-04:00","level":"INFO","msg":"Starting system monitor"}

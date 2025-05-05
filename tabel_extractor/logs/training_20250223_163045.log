@@ -1,0 +1,3 @@
+2025-02-23 16:30:45,016 - INFO - Process 0/4 starting training
+2025-02-23 16:30:47,764 - INFO - Using provided sampler, shuffle set to False
+2025-02-23 16:30:47,764 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided

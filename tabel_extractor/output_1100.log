@@ -1,0 +1,20 @@
+Starting the job...
+Starting distributed training on 8 GPUs
+Found free port: 52321
+Process 0 using port 52321
+Process 2 using port 52321
+Process 6 using port 52321
+Process 5 using port 52321
+Process 4 using port 52321
+Process 7 using port 52321
+Process 1 using port 52321
+Process 3 using port 52321
+Process 0 initialized successfully
+Process 2 initialized successfully
+Process 6 initialized successfully
+Process 3 initialized successfully
+Process 5 initialized successfully
+Process 7 initialized successfully
+Process 4 initialized successfully
+Process 1 initialized successfully
+Job completed!

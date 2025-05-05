@@ -1,0 +1,144 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: tenlhak98 (tenlhak98-university-at-buffalo) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /home/dapgrad/tenzinl2/lumina/tabel_extractor/wandb/run-20250311_161418-8gp5js0v
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run tablesense-20250311-161418
+wandb: ⭐️ View project at https://wandb.ai/tenlhak98-university-at-buffalo/tablesense
+wandb: 🚀 View run at https://wandb.ai/tenlhak98-university-at-buffalo/tablesense/runs/8gp5js0v
+2025-03-11 16:14:19,411 - INFO - Initialized wandb run: tablesense-20250311-161418
+2025-03-11 16:14:19,412 - INFO - Process 0/4 starting training
+wandb: logging graph, to disable use `wandb.watch(log_graph=False)`
+/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 0:   0%|          | 0/92 [00:00<?, ?it/s]2025-03-11 16:14:22,079 - INFO - Using provided sampler, shuffle set to False
+2025-03-11 16:14:22,080 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-03-11 16:14:22,080 - INFO - Running profiling for a few batches...
+2025-03-11 16:14:22,081 - INFO - Starting profiling for 10 batches (Device: 0)
+/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 0:   0%|          | 0/92 [00:00<?, ?it/s]/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 0:   0%|          | 0/92 [00:00<?, ?it/s]Epoch 0:   1%|          | 1/92 [00:32<48:51, 32.21s/it]Epoch 0:   1%|          | 1/92 [00:32<49:23, 32.57s/it]Epoch 0:   1%|          | 1/92 [00:32<49:24, 32.58s/it]Epoch 0:   2%|▏         | 2/92 [06:12<5:20:02, 213.36s/it]Epoch 0:   2%|▏         | 2/92 [06:12<5:20:07, 213.41s/it]Epoch 0:   2%|▏         | 2/92 [06:12<5:19:58, 213.31s/it]Epoch 0:   3%|▎         | 3/92 [1:01:17<40:10:43, 1625.20s/it]Epoch 0:   3%|▎         | 3/92 [1:01:17<40:10:42, 1625.20s/it]Epoch 0:   3%|▎         | 3/92 [1:01:18<40:11:24, 1625.67s/it]Epoch 0:   4%|▍         | 4/92 [1:02:36<24:47:57, 1014.52s/it]Epoch 0:   4%|▍         | 4/92 [1:02:35<24:47:54, 1014.49s/it]Epoch 0:   4%|▍         | 4/92 [1:02:36<24:47:55, 1014.49s/it]Epoch 0:   5%|▌         | 5/92 [1:11:37<20:23:59, 844.13s/it] Epoch 0:   5%|▌         | 5/92 [1:11:38<20:24:05, 844.20s/it] Epoch 0:   5%|▌         | 5/92 [1:11:38<20:24:14, 844.30s/it] Epoch 0:   7%|▋         | 6/92 [1:17:06<15:58:39, 668.83s/it]Epoch 0:   7%|▋         | 6/92 [1:17:06<15:58:50, 668.95s/it]Epoch 0:   7%|▋         | 6/92 [1:17:07<15:58:44, 668.89s/it]Epoch 0:   8%|▊         | 7/92 [1:18:22<11:12:38, 474.81s/it]Epoch 0:   8%|▊         | 7/92 [1:18:21<11:12:37, 474.79s/it]Epoch 0:   8%|▊         | 7/92 [1:18:22<11:12:41, 474.85s/it]Epoch 0:   9%|▊         | 8/92 [1:20:58<8:42:59, 373.56s/it] Epoch 0:   9%|▊         | 8/92 [1:20:59<8:42:56, 373.54s/it] Epoch 0:   9%|▊         | 8/92 [1:21:00<8:43:31, 373.95s/it] Epoch 0:  10%|▉         | 9/92 [1:21:20<6:04:35, 263.56s/it]Epoch 0:  10%|▉         | 9/92 [1:21:20<6:04:41, 263.64s/it]Epoch 0:  10%|▉         | 9/92 [1:21:20<6:04:36, 263.58s/it]Epoch 0:  11%|█         | 10/92 [1:24:59<5:41:32, 249.91s/it]Epoch 0:  11%|█         | 10/92 [1:25:00<5:41:29, 249.87s/it]Epoch 0:  11%|█         | 10/92 [1:25:00<5:41:29, 249.87s/it]Epoch 0:  12%|█▏        | 11/92 [1:25:28<4:05:52, 182.13s/it]Epoch 0:  12%|█▏        | 11/92 [1:25:28<4:05:49, 182.09s/it]Epoch 0:  12%|█▏        | 11/92 [1:25:28<4:05:52, 182.13s/it][rank2]:[E311 19:43:44.602708348 ProcessGroupGloo.cpp:145] Rank 2 successfully reached monitoredBarrier, but received errors while waiting for send/recv from rank 0. Please check rank 0 logs for faulty rank.
+ERROR:root:Error in batch 11 on GPU 2: Rank 2 successfully reached monitoredBarrier, but received errors while waiting for send/recv from rank 0. Please check rank 0 logs for faulty rank.
+ Original exception: 
+[/pytorch/third_party/gloo/gloo/transport/tcp/unbound_buffer.cc:81] Timed out waiting 7200000ms for recv operation to complete
+Epoch 0:  13%|█▎        | 12/92 [3:29:22<53:04:27, 2388.34s/it]ERROR:root:Error in batch 12 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 13 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 14 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 15 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 16 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  18%|█▊        | 17/92 [3:29:25<15:41:19, 753.06s/it] ERROR:root:Error in batch 17 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 18 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  21%|██        | 19/92 [3:29:25<10:58:33, 541.29s/it]ERROR:root:Error in batch 19 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 20 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 21 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 22 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  25%|██▌       | 23/92 [3:29:25<5:45:09, 300.13s/it] ERROR:root:Error in batch 23 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 24 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 25 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 26 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 27 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  30%|███       | 28/92 [3:29:26<2:58:24, 167.26s/it]ERROR:root:Error in batch 28 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 29 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 30 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 31 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  35%|███▍      | 32/92 [3:29:27<1:51:03, 111.06s/it]ERROR:root:Error in batch 32 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 33 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 34 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 35 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 36 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  40%|████      | 37/92 [3:29:27<1:03:37, 69.42s/it] ERROR:root:Error in batch 37 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 38 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 39 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 40 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 41 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 42 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  47%|████▋     | 43/92 [3:29:27<34:31, 42.28s/it]  ERROR:root:Error in batch 43 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 44 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 45 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 46 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  51%|█████     | 47/92 [3:29:28<23:06, 30.81s/it]ERROR:root:Error in batch 47 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 48 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  53%|█████▎    | 49/92 [3:29:28<18:30, 25.83s/it]ERROR:root:Error in batch 49 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 50 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 51 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 52 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 53 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 54 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 55 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  61%|██████    | 56/92 [3:29:28<08:33, 14.26s/it]ERROR:root:Error in batch 56 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 57 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 58 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 59 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 60 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  66%|██████▋   | 61/92 [3:29:28<05:03,  9.79s/it]ERROR:root:Error in batch 61 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 62 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 63 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 64 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  71%|███████   | 65/92 [3:29:29<03:16,  7.29s/it]ERROR:root:Error in batch 65 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 66 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 67 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  74%|███████▍  | 68/92 [3:29:33<02:23,  5.96s/it]ERROR:root:Error in batch 68 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 69 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  76%|███████▌  | 70/92 [3:29:33<01:48,  4.95s/it]ERROR:root:Error in batch 70 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 71 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 72 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  79%|███████▉  | 73/92 [3:29:33<01:08,  3.62s/it]ERROR:root:Error in batch 73 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 74 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  82%|████████▏ | 75/92 [3:29:34<00:49,  2.89s/it]ERROR:root:Error in batch 75 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 76 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 77 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  85%|████████▍ | 78/92 [3:29:34<00:28,  2.02s/it]ERROR:root:Error in batch 78 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 79 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 80 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  88%|████████▊ | 81/92 [3:29:34<00:16,  1.48s/it]ERROR:root:Error in batch 81 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 82 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  90%|█████████ | 83/92 [3:29:36<00:11,  1.28s/it]ERROR:root:Error in batch 83 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 84 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 85 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  93%|█████████▎| 86/92 [3:29:36<00:05,  1.14it/s]ERROR:root:Error in batch 86 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 87 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 88 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 89 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+ERROR:root:Error in batch 90 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0:  99%|█████████▉| 91/92 [3:29:36<00:00,  1.97it/s]ERROR:root:Error in batch 91 on GPU 2: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+Epoch 0: 100%|██████████| 92/92 [3:29:36<00:00, 136.70s/it]
+ERROR:root:Error in process 2: ProcessGroupWrapper: Monitored Barrier encountered error running collective: CollectiveFingerPrint(SequenceNumber=52OpType=BARRIER). Error: 
+Application timeout caused pair closure
+W0311 19:44:03.841000 9582 torch/multiprocessing/spawn.py:169] Terminating process 9590 via signal SIGTERM
+W0311 19:44:03.905000 9582 torch/multiprocessing/spawn.py:169] Terminating process 9591 via signal SIGTERM
+W0311 19:44:03.907000 9582 torch/multiprocessing/spawn.py:169] Terminating process 9593 via signal SIGTERM
+Traceback (most recent call last):
+  File "/home/dapgrad/tenzinl2/lumina/tabel_extractor/scripts/train.py", line 851, in <module>
+    main()
+  File "/home/dapgrad/tenzinl2/lumina/tabel_extractor/scripts/train.py", line 843, in main
+    mp.spawn(
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/multiprocessing/spawn.py", line 340, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method="spawn")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/multiprocessing/spawn.py", line 296, in start_processes
+    while not context.join():
+              ^^^^^^^^^^^^^^
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/multiprocessing/spawn.py", line 215, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 2 terminated with the following error:
+Traceback (most recent call last):
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/multiprocessing/spawn.py", line 90, in _wrap
+    fn(i, *args)
+  File "/home/dapgrad/tenzinl2/lumina/tabel_extractor/scripts/train.py", line 654, in train_model_distributed
+    avg_loss = train_epoch(
+               ^^^^^^^^^^^^
+  File "/home/dapgrad/tenzinl2/lumina/tabel_extractor/tablesense/utils/training_utils.py", line 483, in train_epoch
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dapgrad/tenzinl2/lumina/lumina/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 4551, in barrier
+    work = group.barrier(opts=opts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: ProcessGroupWrapper: Monitored Barrier encountered error running collective: CollectiveFingerPrint(SequenceNumber=52OpType=BARRIER). Error: 
+Application timeout caused pair closure
+
+srun: error: deepbull5: task 0: Exited with exit code 1

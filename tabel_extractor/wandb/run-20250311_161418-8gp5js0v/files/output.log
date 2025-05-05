@@ -1,0 +1,235 @@
+2025-03-11 16:14:19,411 - INFO - Initialized wandb run: tablesense-20250311-161418
+2025-03-11 16:14:19,412 - INFO - Process 0/4 starting training
+wandb: logging graph, to disable use `wandb.watch(log_graph=False)`
+2025-03-11 16:14:22,079 - INFO - Using provided sampler, shuffle set to False
+2025-03-11 16:14:22,080 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-03-11 16:14:22,080 - INFO - Running profiling for a few batches...
+2025-03-11 16:14:22,081 - INFO - Starting profiling for 10 batches (Device: 0)
+The max anchor overlap is 0.7347400188446045
+
+RPN Labels statistics:
+Total proposals: 19800
+Positive anchors proposals: 18
+Negative anchors proposals: 19782
+The max ROI overlap is 0.7916608452796936
+
+ROI Labels statistics:
+Total ROI proposals: 19800
+Positive ROI proposals: 10
+Negative ROI proposals: 19790
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.690188467502594
+The rpn bbox loss is 0.04023585841059685
+The det_class_loss is 0.00033123663160949945
+The detection head bbox loss is 0.007736158557236195
+The detection head precise bbox loss is 0.003024850971996784
+The max anchor overlap is 0.725978672504425
+
+RPN Labels statistics:
+Total proposals: 23004
+Positive anchors proposals: 27
+Negative anchors proposals: 22977
+The max ROI overlap is 0.9452956318855286
+
+ROI Labels statistics:
+Total ROI proposals: 23004
+Positive ROI proposals: 39
+Negative ROI proposals: 22965
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.651125431060791
+The rpn bbox loss is 0.03592937812209129
+The det_class_loss is 0.000943225808441639
+The detection head bbox loss is 0.380255788564682
+The detection head precise bbox loss is 0.017157122492790222
+The max anchor overlap is 0.87890625
+
+RPN Labels statistics:
+Total proposals: 4500
+Positive anchors proposals: 8
+Negative anchors proposals: 4492
+The max ROI overlap is 0.8583315014839172
+
+ROI Labels statistics:
+Total ROI proposals: 4500
+Positive ROI proposals: 4
+Negative ROI proposals: 4496
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.646031379699707
+The rpn bbox loss is 0.021420661360025406
+The det_class_loss is 0.0004694263625424355
+The detection head bbox loss is 0.004961342550814152
+The detection head precise bbox loss is 0.0014299778267741203
+The max anchor overlap is 0.807692289352417
+
+RPN Labels statistics:
+Total proposals: 4032
+Positive anchors proposals: 22
+Negative anchors proposals: 4010
+The max ROI overlap is 0.9450148940086365
+
+ROI Labels statistics:
+Total ROI proposals: 4032
+Positive ROI proposals: 17
+Negative ROI proposals: 4015
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.6449306607246399
+The rpn bbox loss is 0.015579559840261936
+The det_class_loss is 0.0021316404454410076
+The detection head bbox loss is 0.012663079425692558
+The detection head precise bbox loss is 0.001973950071260333
+The max anchor overlap is 0.7358490824699402
+
+RPN Labels statistics:
+Total proposals: 73440
+Positive anchors proposals: 26
+Negative anchors proposals: 73414
+The max ROI overlap is 0.8610561490058899
+
+ROI Labels statistics:
+Total ROI proposals: 73440
+Positive ROI proposals: 17
+Negative ROI proposals: 73423
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.6125723719596863
+The rpn bbox loss is 0.10743759572505951
+The det_class_loss is 0.00011268093658145517
+The detection head bbox loss is 0.00786734651774168
+The detection head precise bbox loss is 0.0017702007899060845
+The max anchor overlap is 0.8866666555404663
+
+RPN Labels statistics:
+Total proposals: 43200
+Positive anchors proposals: 43
+Negative anchors proposals: 43157
+The max ROI overlap is 0.9539200067520142
+
+ROI Labels statistics:
+Total ROI proposals: 43200
+Positive ROI proposals: 30
+Negative ROI proposals: 43170
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.6044991612434387
+The rpn bbox loss is 0.033377911895513535
+The det_class_loss is 0.0003630980208981782
+The detection head bbox loss is 0.004603021778166294
+The detection head precise bbox loss is 0.0013522292720153928
+The max anchor overlap is 0.94017094373703
+
+RPN Labels statistics:
+Total proposals: 33408
+Positive anchors proposals: 8
+Negative anchors proposals: 33400
+The max ROI overlap is 0.923338770866394
+
+ROI Labels statistics:
+Total ROI proposals: 33408
+Positive ROI proposals: 29
+Negative ROI proposals: 33379
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.5716395378112793
+The rpn bbox loss is 0.035395316779613495
+The det_class_loss is 0.0004549239529296756
+The detection head bbox loss is 0.007695372682064772
+The detection head precise bbox loss is 0.0011989243794232607
+The max anchor overlap is 0.9047044515609741
+
+RPN Labels statistics:
+Total proposals: 29484
+Positive anchors proposals: 34
+Negative anchors proposals: 29450
+The max ROI overlap is 0.9271294474601746
+
+ROI Labels statistics:
+Total ROI proposals: 29484
+Positive ROI proposals: 25
+Negative ROI proposals: 29459
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.558668851852417
+The rpn bbox loss is 0.038941845297813416
+The det_class_loss is 0.00045765182585455477
+The detection head bbox loss is 0.006195302587002516
+The detection head precise bbox loss is 0.0010173552436754107
+The max anchor overlap is 0.7572115659713745
+
+RPN Labels statistics:
+Total proposals: 10080
+Positive anchors proposals: 46
+Negative anchors proposals: 10034
+The max ROI overlap is 0.9000361561775208
+
+ROI Labels statistics:
+Total ROI proposals: 10080
+Positive ROI proposals: 40
+Negative ROI proposals: 10040
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.5449796319007874
+The rpn bbox loss is 0.023105144500732422
+The det_class_loss is 0.0022678563836961985
+The detection head bbox loss is 0.0032656975090503693
+The detection head precise bbox loss is 0.0010092435404658318
+The max anchor overlap is 0.9191583395004272
+
+RPN Labels statistics:
+Total proposals: 65016
+Positive anchors proposals: 36
+Negative anchors proposals: 64980
+The max ROI overlap is 0.8451060056686401
+
+ROI Labels statistics:
+Total ROI proposals: 65016
+Positive ROI proposals: 24
+Negative ROI proposals: 64992
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.47898685932159424
+The rpn bbox loss is 0.027688654139637947
+The det_class_loss is 0.00020169993513263762
+The detection head bbox loss is 0.002786446362733841
+The detection head precise bbox loss is 0.0005975748645141721
+The max anchor overlap is 0.7950682044029236
+
+RPN Labels statistics:
+Total proposals: 13608
+Positive anchors proposals: 40
+Negative anchors proposals: 13568
+The max ROI overlap is 0.8955581784248352
+
+ROI Labels statistics:
+Total ROI proposals: 13608
+Positive ROI proposals: 22
+Negative ROI proposals: 13586
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.45430418848991394
+The rpn bbox loss is 0.02503213845193386
+The det_class_loss is 0.0008907330338843167
+The detection head bbox loss is 0.00297896983101964
+The detection head precise bbox loss is 0.0007593845366500318
+The max anchor overlap is 0.7804877758026123
+
+RPN Labels statistics:
+Total proposals: 38016
+Positive anchors proposals: 9
+Negative anchors proposals: 38007
+The max ROI overlap is 0.7465646266937256
+
+ROI Labels statistics:
+Total ROI proposals: 38016
+Positive ROI proposals: 3
+Negative ROI proposals: 38013
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.41210511326789856
+The rpn bbox loss is 0.16812999546527863
+The det_class_loss is 4.358506703283638e-05
+The detection head bbox loss is 0.01532113365828991
+The detection head precise bbox loss is 0.009341403841972351

@@ -1,0 +1,13 @@
+2025-03-05 17:55:40,785 - INFO - Process 0/4 starting training
+2025-03-05 17:55:43,777 - INFO - Using provided sampler, shuffle set to False
+2025-03-05 17:55:43,777 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-03-05 21:47:02,089 - ERROR - Error in batch 2 on GPU 0: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-03-05 21:47:02,090 - ERROR - Error in process 0: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

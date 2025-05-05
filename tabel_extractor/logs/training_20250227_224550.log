@@ -1,0 +1,5 @@
+2025-02-27 22:45:50,018 - INFO - Process 0/4 starting training
+2025-02-27 22:45:52,902 - INFO - Using provided sampler, shuffle set to False
+2025-02-27 22:45:52,902 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-02-27 22:45:52,903 - INFO - Running profiling for a few batches...
+2025-02-27 22:45:52,903 - INFO - Starting profiling for 5 batches (Device: 0)

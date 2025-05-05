@@ -1,0 +1,17 @@
+{"time":"2025-03-09T00:47:12.022586601-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/dapgrad/tenzinl2/lumina/tabel_extractor/wandb/run-20250309_004712-t63dnq36/logs/debug-core.log"}
+{"time":"2025-03-09T00:47:12.135402987-05:00","level":"INFO","msg":"created new stream","id":"t63dnq36"}
+{"time":"2025-03-09T00:47:12.13543071-05:00","level":"INFO","msg":"stream: started","id":"t63dnq36"}
+{"time":"2025-03-09T00:47:12.135445097-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"t63dnq36"}
+{"time":"2025-03-09T00:47:12.135458542-05:00","level":"INFO","msg":"handler: started","stream_id":"t63dnq36"}
+{"time":"2025-03-09T00:47:12.135491264-05:00","level":"INFO","msg":"sender: started","stream_id":"t63dnq36"}
+{"time":"2025-03-09T00:47:12.222650354-05:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T00:47:12.222735324-05:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-09T00:47:12.260602411-05:00","level":"INFO","msg":"stream: closing","id":"t63dnq36"}
+{"time":"2025-03-09T00:47:12.260666542-05:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-09T00:47:12.357334157-05:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T00:47:12.357377399-05:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project tenlhak98/tablesense not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-03-09T00:47:12.357778597-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T00:47:12.357797502-05:00","level":"INFO","msg":"handler: closed","stream_id":"t63dnq36"}
+{"time":"2025-03-09T00:47:12.357808413-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"t63dnq36"}
+{"time":"2025-03-09T00:47:12.357865852-05:00","level":"INFO","msg":"sender: closed","stream_id":"t63dnq36"}
+{"time":"2025-03-09T00:47:12.358799065-05:00","level":"INFO","msg":"stream: closed","id":"t63dnq36"}

@@ -1,0 +1,26 @@
+2025-02-24 20:18:38,239 - INFO - Process 0/4 starting training
+2025-02-24 20:18:42,278 - INFO - Using provided sampler, shuffle set to False
+2025-02-24 20:18:42,279 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-02-24 20:18:49,638 - ERROR - Error in batch 0 on GPU 0: The size of tensor a (99792) must match the size of tensor b (2268) at non-singleton dimension 0
+2025-02-24 20:18:49,677 - ERROR - Error in batch 1 on GPU 0: The size of tensor a (49896) must match the size of tensor b (2772) at non-singleton dimension 0
+2025-02-24 20:18:49,795 - ERROR - Error in batch 2 on GPU 0: The size of tensor a (371952) must match the size of tensor b (2040) at non-singleton dimension 0
+2025-02-24 20:18:49,844 - ERROR - Error in batch 3 on GPU 0: The size of tensor a (1728) must match the size of tensor b (576) at non-singleton dimension 0
+2025-02-24 20:18:49,900 - ERROR - Error in batch 4 on GPU 0: The size of tensor a (63036) must match the size of tensor b (1944) at non-singleton dimension 0
+2025-02-24 20:18:50,670 - ERROR - Error in batch 5 on GPU 0: The size of tensor a (800172) must match the size of tensor b (1944) at non-singleton dimension 0
+2025-02-24 20:18:50,699 - ERROR - Error in batch 6 on GPU 0: The size of tensor a (4680) must match the size of tensor b (1560) at non-singleton dimension 0
+2025-02-24 20:18:50,762 - ERROR - Error in batch 7 on GPU 0: The size of tensor a (12312) must match the size of tensor b (2052) at non-singleton dimension 0
+2025-02-24 20:18:50,831 - ERROR - Error in batch 8 on GPU 0: The size of tensor a (4968) must match the size of tensor b (1656) at non-singleton dimension 0
+2025-02-24 20:18:50,898 - ERROR - Error in batch 9 on GPU 0: The size of tensor a (24192) must match the size of tensor b (2016) at non-singleton dimension 0
+2025-02-24 20:18:51,127 - ERROR - Error in batch 10 on GPU 0: The size of tensor a (170316) must match the size of tensor b (2040) at non-singleton dimension 0
+2025-02-24 20:18:51,163 - ERROR - Error in batch 11 on GPU 0: The size of tensor a (62172) must match the size of tensor b (2376) at non-singleton dimension 0
+2025-02-24 20:18:51,195 - ERROR - Error in batch 12 on GPU 0: The size of tensor a (37440) must match the size of tensor b (2496) at non-singleton dimension 0
+2025-02-24 20:18:52,114 - ERROR - Error in batch 13 on GPU 0: The size of tensor a (33408) must match the size of tensor b (1920) at non-singleton dimension 0
+2025-02-24 20:18:52,146 - ERROR - Error in batch 14 on GPU 0: The size of tensor a (38016) must match the size of tensor b (1632) at non-singleton dimension 0
+2025-02-24 20:18:52,188 - ERROR - Error in batch 15 on GPU 0: The size of tensor a (6804) must match the size of tensor b (2268) at non-singleton dimension 0
+2025-02-24 20:18:52,247 - ERROR - Error in batch 16 on GPU 0: The size of tensor a (50652) must match the size of tensor b (2244) at non-singleton dimension 0
+2025-02-24 20:18:52,291 - ERROR - Error in batch 17 on GPU 0: The size of tensor a (134784) must match the size of tensor b (2448) at non-singleton dimension 0
+2025-02-24 20:18:52,326 - ERROR - Error in batch 18 on GPU 0: The size of tensor a (19728) must match the size of tensor b (432) at non-singleton dimension 0
+2025-02-24 20:18:52,517 - ERROR - Error in batch 19 on GPU 0: The size of tensor a (11880) must match the size of tensor b (3960) at non-singleton dimension 0
+2025-02-24 20:18:55,006 - ERROR - Error in batch 20 on GPU 0: The size of tensor a (4320) must match the size of tensor b (1440) at non-singleton dimension 0
+2025-02-24 20:18:55,033 - ERROR - Error in batch 21 on GPU 0: The size of tensor a (5040) must match the size of tensor b (1680) at non-singleton dimension 0
+2025-02-24 20:18:55,110 - ERROR - Error in batch 22 on GPU 0: The size of tensor a (22500) must match the size of tensor b (1080) at non-singleton dimension 0

@@ -1,0 +1,7 @@
+2025-03-09 22:25:37,203 - INFO - Initialized wandb run: tablesense-20250309-222531
+2025-03-09 22:25:37,204 - INFO - Process 0/3 starting training
+2025-03-09 22:25:40,088 - INFO - Using provided sampler, shuffle set to False
+2025-03-09 22:25:40,089 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-03-09 22:25:40,089 - INFO - Running profiling for a few batches...
+2025-03-09 22:25:40,090 - INFO - Starting profiling for 10 batches (Device: 0)
+2025-03-09 22:27:48,151 - ERROR - Error in process 0: !stack.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/autograd/profiler_python.cpp":983, please report a bug to PyTorch. Python replay stack is empty.

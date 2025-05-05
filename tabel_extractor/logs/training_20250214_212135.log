@@ -1,0 +1,63 @@
+2025-02-14 21:21:35,336 - INFO - Process 0/4 starting training
+2025-02-14 21:21:38,162 - INFO - Using provided sampler, shuffle set to False
+2025-02-14 21:21:38,162 - INFO - Created DataLoader with: batch_size=2, num_workers=2, shuffle=False, sampler=provided
+2025-02-14 22:42:08,998 - ERROR - Error in batch 2 on GPU 0: [Rank 0]: Ranks 2 failed to pass monitoredBarrier in 1800000 ms
+2025-02-14 22:42:09,046 - ERROR - Error in batch 3 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:09,057 - ERROR - Error in batch 4 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:09,067 - ERROR - Error in batch 5 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:09,097 - ERROR - Error in batch 6 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:09,694 - ERROR - Error in batch 7 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:09,699 - ERROR - Error in batch 8 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:09,762 - ERROR - Error in batch 9 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:09,766 - ERROR - Error in batch 10 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:10,840 - ERROR - Error in batch 11 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:10,847 - ERROR - Error in batch 12 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:10,957 - ERROR - Error in batch 13 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:10,959 - ERROR - Error in batch 14 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:11,087 - ERROR - Error in batch 15 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:11,097 - ERROR - Error in batch 16 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:11,136 - ERROR - Error in batch 17 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:11,278 - ERROR - Error in batch 18 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:11,284 - ERROR - Error in batch 19 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:11,767 - ERROR - Error in batch 20 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:11,841 - ERROR - Error in batch 21 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:11,909 - ERROR - Error in batch 22 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:12,118 - ERROR - Error in batch 23 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:12,124 - ERROR - Error in batch 24 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:15,186 - ERROR - Error in batch 25 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:15,195 - ERROR - Error in batch 26 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:15,317 - ERROR - Error in batch 27 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:15,321 - ERROR - Error in batch 28 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:15,452 - ERROR - Error in batch 29 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:15,452 - ERROR - Error in batch 30 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:15,533 - ERROR - Error in batch 31 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:15,533 - ERROR - Error in batch 32 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:15,722 - ERROR - Error in batch 33 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:16,936 - ERROR - Error in batch 34 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:16,937 - ERROR - Error in batch 35 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:18,179 - ERROR - Error in batch 36 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:18,180 - ERROR - Error in batch 37 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:20,137 - ERROR - Error in batch 38 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:20,138 - ERROR - Error in batch 39 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:20,321 - ERROR - Error in batch 40 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:20,322 - ERROR - Error in batch 41 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:20,815 - ERROR - Error in batch 42 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:20,816 - ERROR - Error in batch 43 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:20,992 - ERROR - Error in batch 44 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:20,992 - ERROR - Error in batch 45 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:21,041 - ERROR - Error in batch 46 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:21,111 - ERROR - Error in batch 47 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:21,111 - ERROR - Error in batch 48 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:22,011 - ERROR - Error in batch 49 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:22,012 - ERROR - Error in batch 50 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:22,825 - ERROR - Error in batch 51 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:22,826 - ERROR - Error in batch 52 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:22,995 - ERROR - Error in batch 53 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:22,996 - ERROR - Error in batch 54 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:25,359 - ERROR - Error in batch 55 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:25,360 - ERROR - Error in batch 56 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:26,050 - ERROR - Error in batch 57 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:26,051 - ERROR - Error in batch 58 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:26,165 - ERROR - Error in batch 59 on GPU 0: !unmarked_param_indices.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/distributed/c10d/reducer.cpp":1924, please report a bug to PyTorch. 
+2025-02-14 22:42:26,167 - ERROR - Error in process 0: ProcessGroupWrapper: Monitored Barrier encountered error running collective: CollectiveFingerPrint(SequenceNumber=16OpType=BARRIER). Error: 
+Application timeout caused pair closure

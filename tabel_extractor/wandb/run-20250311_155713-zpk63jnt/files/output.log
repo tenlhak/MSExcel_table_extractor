@@ -1,0 +1,50 @@
+2025-03-11 15:57:14,988 - INFO - Initialized wandb run: tablesense-20250311-155712
+2025-03-11 15:57:14,989 - INFO - Process 0/4 starting training
+wandb: logging graph, to disable use `wandb.watch(log_graph=False)`
+2025-03-11 15:57:24,392 - INFO - Using provided sampler, shuffle set to False
+2025-03-11 15:57:24,393 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+/home/dapgrad/tenzinl2/lumina/tabel_extractor/scripts/train.py:613: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler() if args.mixed_precision else None
+2025-03-11 15:57:24,394 - INFO - Running profiling for a few batches...
+2025-03-11 15:57:24,394 - INFO - Starting profiling for 10 batches (Device: 0)
+/home/dapgrad/tenzinl2/lumina/tabel_extractor/scripts/train.py:769: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+The max anchor overlap is 0.7347400188446045
+
+RPN Labels statistics:
+Total proposals: 19800
+Positive anchors proposals: 18
+Negative anchors proposals: 19782
+The max ROI overlap is 0.8569054007530212
+
+ROI Labels statistics:
+Total ROI proposals: 19800
+Positive ROI proposals: 10
+Negative ROI proposals: 19790
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.6835590600967407
+The rpn bbox loss is 0.021953728049993515
+The det_class_loss is 0.0003342260606586933
+The detection head bbox loss is 0.002942153252661228
+The detection head precise bbox loss is 0.0017541248816996813
+The max anchor overlap is 0.725978672504425
+
+RPN Labels statistics:
+Total proposals: 23004
+Positive anchors proposals: 27
+Negative anchors proposals: 22977
+The max ROI overlap is 0.9712716341018677
+
+ROI Labels statistics:
+Total ROI proposals: 23004
+Positive ROI proposals: 37
+Negative ROI proposals: 22967
+
+*******Following are the LOSSes***********
+The rpn class loss is 0.6324629187583923
+The rpn bbox loss is 0.0384775809943676
+The det_class_loss is 0.0008794963359832764
+The detection head bbox loss is 0.20031917095184326
+The detection head precise bbox loss is 0.016499387100338936
+2025-03-11 15:58:29,470 - ERROR - Error in process 0: !stack.empty() INTERNAL ASSERT FAILED at "/pytorch/torch/csrc/autograd/profiler_python.cpp":983, please report a bug to PyTorch. Python replay stack is empty.

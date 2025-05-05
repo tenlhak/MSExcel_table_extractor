@@ -1,0 +1,6 @@
+2025-03-11 16:14:19,411 - INFO - Initialized wandb run: tablesense-20250311-161418
+2025-03-11 16:14:19,412 - INFO - Process 0/4 starting training
+2025-03-11 16:14:22,079 - INFO - Using provided sampler, shuffle set to False
+2025-03-11 16:14:22,080 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-03-11 16:14:22,080 - INFO - Running profiling for a few batches...
+2025-03-11 16:14:22,081 - INFO - Starting profiling for 10 batches (Device: 0)

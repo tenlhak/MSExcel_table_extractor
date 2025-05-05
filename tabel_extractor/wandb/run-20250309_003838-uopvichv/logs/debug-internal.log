@@ -1,0 +1,17 @@
+{"time":"2025-03-09T00:38:38.992158221-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/dapgrad/tenzinl2/lumina/tabel_extractor/wandb/run-20250309_003838-uopvichv/logs/debug-core.log"}
+{"time":"2025-03-09T00:38:39.105243067-05:00","level":"INFO","msg":"created new stream","id":"uopvichv"}
+{"time":"2025-03-09T00:38:39.105275298-05:00","level":"INFO","msg":"stream: started","id":"uopvichv"}
+{"time":"2025-03-09T00:38:39.105297741-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"uopvichv"}
+{"time":"2025-03-09T00:38:39.105321055-05:00","level":"INFO","msg":"handler: started","stream_id":"uopvichv"}
+{"time":"2025-03-09T00:38:39.105333629-05:00","level":"INFO","msg":"sender: started","stream_id":"uopvichv"}
+{"time":"2025-03-09T00:38:39.204791181-05:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T00:38:39.204850563-05:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-09T00:38:39.238763068-05:00","level":"INFO","msg":"stream: closing","id":"uopvichv"}
+{"time":"2025-03-09T00:38:39.238836086-05:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-09T00:38:39.334991476-05:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T00:38:39.335022805-05:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project tenlhak98/tablesense not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-03-09T00:38:39.335465901-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T00:38:39.335507149-05:00","level":"INFO","msg":"handler: closed","stream_id":"uopvichv"}
+{"time":"2025-03-09T00:38:39.335526496-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"uopvichv"}
+{"time":"2025-03-09T00:38:39.335594264-05:00","level":"INFO","msg":"sender: closed","stream_id":"uopvichv"}
+{"time":"2025-03-09T00:38:39.336449147-05:00","level":"INFO","msg":"stream: closed","id":"uopvichv"}

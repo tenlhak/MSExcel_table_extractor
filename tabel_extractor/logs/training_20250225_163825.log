@@ -1,0 +1,6 @@
+2025-02-25 16:38:25,986 - INFO - Process 0/4 starting training
+2025-02-25 16:38:26,295 - ERROR - Error in process 0: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

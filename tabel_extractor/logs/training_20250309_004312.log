@@ -1,0 +1,1 @@
+2025-03-09 00:43:13,192 - ERROR - Error in process 0: failed to upsert bucket: returned error 403 Forbidden: {"errors":[{"message":"permission denied","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertBucket":null}}

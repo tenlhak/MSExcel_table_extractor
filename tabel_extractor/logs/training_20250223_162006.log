@@ -1,0 +1,26 @@
+2025-02-23 16:20:06,111 - INFO - Process 0/4 starting training
+2025-02-23 16:20:09,093 - INFO - Using provided sampler, shuffle set to False
+2025-02-23 16:20:09,093 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-02-23 16:20:17,861 - ERROR - Error in batch 0 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:17,871 - ERROR - Error in batch 1 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:17,910 - ERROR - Error in batch 2 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:17,929 - ERROR - Error in batch 3 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:17,950 - ERROR - Error in batch 4 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:18,762 - ERROR - Error in batch 5 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:18,788 - ERROR - Error in batch 6 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:18,845 - ERROR - Error in batch 7 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:18,876 - ERROR - Error in batch 8 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:18,950 - ERROR - Error in batch 9 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:19,249 - ERROR - Error in batch 10 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:19,258 - ERROR - Error in batch 11 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:19,311 - ERROR - Error in batch 12 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:20,246 - ERROR - Error in batch 13 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:20,262 - ERROR - Error in batch 14 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:20,304 - ERROR - Error in batch 15 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:20,342 - ERROR - Error in batch 16 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:20,410 - ERROR - Error in batch 17 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:20,473 - ERROR - Error in batch 18 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:20,617 - ERROR - Error in batch 19 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:23,190 - ERROR - Error in batch 20 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:23,235 - ERROR - Error in batch 21 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function
+2025-02-23 16:20:23,293 - ERROR - Error in batch 22 on GPU 0: Module [CompleteTableDetectionSystem] is missing the required "forward" function

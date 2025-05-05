@@ -1,0 +1,25 @@
+2025-02-16 15:33:29,849 - INFO - Process 0/4 starting training
+2025-02-16 15:33:48,990 - INFO - Using provided sampler, shuffle set to False
+2025-02-16 15:33:48,991 - INFO - Created DataLoader with: batch_size=1, num_workers=2, shuffle=False, sampler=provided
+2025-02-16 15:34:59,938 - INFO - GPU 0: Gradient norm before clipping: 3.6581289768218994 in batch 0
+2025-02-16 15:45:33,450 - INFO - GPU 0: Gradient norm before clipping: 3.718783378601074 in batch 2
+2025-02-16 16:36:48,720 - INFO - GPU 0: Gradient norm before clipping: 6.612813949584961 in batch 5
+2025-02-16 16:42:36,543 - INFO - GPU 0: Gradient norm before clipping: 5.677635669708252 in batch 9
+2025-02-16 16:44:58,224 - INFO - GPU 0: Gradient norm before clipping: 5.157773494720459 in batch 10
+2025-02-16 16:45:38,046 - INFO - GPU 0: Gradient norm before clipping: 3.233476161956787 in batch 12
+2025-02-16 16:47:42,445 - INFO - GPU 0: Gradient norm before clipping: 6.230701923370361 in batch 13
+2025-02-16 16:52:37,977 - INFO - GPU 0: Gradient norm before clipping: 5.981293201446533 in batch 18
+2025-02-16 16:56:45,025 - INFO - GPU 0: Gradient norm before clipping: 3.9700634479522705 in batch 20
+2025-02-16 16:56:49,320 - INFO - GPU 0: Gradient norm before clipping: 9.41129207611084 in batch 21
+2025-02-16 16:57:06,998 - INFO - GPU 0: Gradient norm before clipping: 7.228796482086182 in batch 22
+2025-02-16 16:57:40,334 - INFO - GPU 0: Gradient norm before clipping: 13.210105895996094 in batch 23
+2025-02-16 16:57:42,898 - WARNING - GPU 0: Invalid loss inf detected in batch 24
+2025-02-16 16:57:47,462 - ERROR - Error in batch 25 on GPU 0: Detected mismatch between collectives on ranks. Rank 0 is running collective: CollectiveFingerPrint(SequenceNumber=103, OpType=BROADCAST, TensorShape=[256], TensorDtypes=Float, TensorDeviceTypes=TensorOptions(dtype=float (default), device=cuda, layout=Strided (default), requires_grad=false (default), pinned_memory=false (default), memory_format=(nullopt))), but Rank 1 is running collective: CollectiveFingerPrint(SequenceNumber=103, OpType=ALLREDUCE, TensorShape=[660234], TensorDtypes=Float, TensorDeviceTypes=TensorOptions(dtype=float (default), device=cuda, layout=Strided (default), requires_grad=false (default), pinned_memory=false (default), memory_format=(nullopt))).Collectives differ in the following aspects:   Op type: BROADCASTvs ALLREDUCE  Tensor Tensor shapes: 256vs 660234
+2025-02-16 16:58:07,750 - ERROR - Error in batch 26 on GPU 0: Detected mismatch between collectives on ranks. Rank 0 is running collective: CollectiveFingerPrint(SequenceNumber=103, OpType=BROADCAST, TensorShape=[256], TensorDtypes=Float, TensorDeviceTypes=TensorOptions(dtype=float (default), device=cuda, layout=Strided (default), requires_grad=false (default), pinned_memory=false (default), memory_format=(nullopt))), but Rank 1 is running collective: CollectiveFingerPrint(SequenceNumber=0OpType=REDUCE).Collectives differ in the following aspects: 	 Sequence number: 103vs 0  Op type: BROADCASTvs REDUCE  Tensor Tensor shapes: 256vs   Tensor Tensor dtypes: Floatvs   Tensor Tensor devices: TensorOptions(dtype=float (default), device=cuda, layout=Strided (default), requires_grad=false (default), pinned_memory=false (default), memory_format=(nullopt))vs 
+2025-02-16 16:58:09,759 - ERROR - Error in batch 27 on GPU 0: [Rank 0]: Ranks 1, 2, 3 failed to pass monitoredBarrier in 7200000 ms
+2025-02-16 16:58:09,761 - ERROR - Error in batch 28 on GPU 0: ProcessGroupWrapper: Monitored Barrier encountered error running collective: CollectiveFingerPrint(SequenceNumber=103, OpType=BROADCAST, TensorShape=[256], TensorDtypes=Float, TensorDeviceTypes=TensorOptions(dtype=float (default), device=cuda, layout=Strided (default), requires_grad=false (default), pinned_memory=false (default), memory_format=(nullopt))). Error: 
+[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:534] Connection closed by peer [127.0.0.1]:55460
+2025-02-16 16:58:09,762 - ERROR - Error in batch 29 on GPU 0: ProcessGroupWrapper: Monitored Barrier encountered error running collective: CollectiveFingerPrint(SequenceNumber=103, OpType=BROADCAST, TensorShape=[256], TensorDtypes=Float, TensorDeviceTypes=TensorOptions(dtype=float (default), device=cuda, layout=Strided (default), requires_grad=false (default), pinned_memory=false (default), memory_format=(nullopt))). Error: 
+[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:534] Connection closed by peer [127.0.0.1]:55460
+2025-02-16 16:58:09,762 - ERROR - Error in batch 30 on GPU 0: ProcessGroupWrapper: Monitored Barrier encountered error running collective: CollectiveFingerPrint(SequenceNumber=103, OpType=BROADCAST, TensorShape=[256], TensorDtypes=Float, TensorDeviceTypes=TensorOptions(dtype=float (default), device=cuda, layout=Strided (default), requires_grad=false (default), pinned_memory=false (default), memory_format=(nullopt))). Error: 
+[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:534] Connection closed by peer [127.0.0.1]:55460
